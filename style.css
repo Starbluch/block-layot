@@ -1,0 +1,32 @@
+body {
+    padding: 10px;
+    margin: 0px;
+    background-color: #020202;
+    color:white;
+}
+.container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-color: #232323;
+}
+
+.title h1 {
+    color: rgb(255, 111, 0);
+}
+.block {
+    margin: 0 auto;
+    width: 90%;
+    background-color: #131313;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 111, 0);
+}
+
+.text__overflow {
+    display: inline-block;
+    white-space: nowrap;
+    position: absolute;
+    left: 50%;
+    transform: translateX(50%);
+}
